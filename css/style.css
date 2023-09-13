@@ -48,6 +48,10 @@ button:active {
     transform: translateY(2px);
 }
 
+/* button:disabled {
+    background-color: red;
+} */
+
 .luasInputSection {
     display: flex;
     flex-direction: column;
@@ -59,4 +63,10 @@ button:active {
     flex-direction: row;
     justify-content: center;
     margin-top: 8px;
+}
+
+@media screen and (max-width: 800px) {
+    button {
+        background-color: red;
+    }
 }
